@@ -41,4 +41,3 @@ function print(text) {
     }
   });
   print("Log-in Page \n\nWelcome! Please enter your username:")
- if
