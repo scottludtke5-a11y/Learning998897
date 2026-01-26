@@ -1,1 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Webpage</title>
+<style>
+img {
+      width: 125px;
+      height: 200px;
+      border-radius: 50%;
+      margin-top: 10px;
+}
+.flex-container {
+   display: flex;
+   justify-content: space-around;
+   background-color: lightgray;
+   padding: 20px
+}
+.flex-item {
+   background-color: steelblue;
+   color: white; 
+   padding: 20px;
+   width: 30%;
+   text-align: center;
+}
+body {
+     background-color: powderblue;
+     font-family: Arial;
+     color: black;
+     text-align: center;
+}
+div.header {
+            background-color: tomato;
+            color: white;
+            text-align: center;
+            padding: 20px;
+}
+h1 {
+    color: navy;
+    font-size: 36px;
+}
+p{
+  font-size: 18px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.button-transition {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.button-transiton:hover {
+  background-color: tomato;
+ }
+.table-style1 {
+        width: 80%;
+        margin: 20px;
+        border: 2px solid navy;
+     }
+.table-style1 th, .table-style1 td {
+       border: 1px solid navy;
+       padding: 10px;
+       text-align: center;
+    }
 
+.table-style1 th {
+        background-color: lightblue;
+      }
+div.mycontainer {
+            width: 66%;
+            overflow: auto;
+     }
+div.mycontainer div {
+            width: 50%;
+            float: left;
+      }
+.list-style1 {
+        list-style-type: square;
+        color: darkblue;
+        text-align: left;
+        margin: 20px;
+    }
+.list-style2 {
+        list-style-type: circle;
+        color: darkgreen;
+        text-align: left;
+        margin: 20px;
+     }
+.table-style2 {
+        width: 60%;
+        margin: 20px;
+        border-collaspe: collaspe;
+        border: 2px solid darkgreen;
+     }
+.table-style2 th, .table-style2 td {
+       border: 1px solid darkgreen;
+       padding: 10px;
+       text-align: center;
+    }
+
+.table-style2 th {
+        background-color: lightgreen;
+      }
+.video {
+      width: 42%;
+      margin: 10px auto;
+      text-align: center;
+      border: 3px solid green;
+      background-color: DarkTurquoise;
+      }
+</style>
+</head>
+<body>
+<div class = "header">
+  <h1>Welcome to My Personal Webpage</h1>
+<p>This is a sample of an HTML, JavaScript, and CSS personal webpage.</p>
+ <pre style = "font-size: 24px";>
+Name: Scott Ludtke
+Age: 32
+Location: Kansas City
+</pre>
+<br>
+<div class="grid-container">
+<div class="grid-item"><a href ="https://www.msn.com/" style ="color:black"; target = "_blank";>
+<button class = "button-transition">Button Name</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href ="https://www.msn.com/" style ="color:black"; target = "_blank";>
+<button class = "button-transition">JavaScript</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href ="https://www.msn.com/" style ="color:black"; target = "_blank";>
+<button class = "button-transition">Adventure Game Webpage</button></a></div>
+<div class="grid-item"></div>
+
+</div>
+</div>
+
+<div class="flex-container">
+<div class="flex-item"><p>Check out my Favorite website:
+<a href="https://www.youtube.com/" target="_blank">Youtube<a/></p></div>
+
+<div class="flex-item">
+<a href="https://www.animalplanet.com/" target="_blank">
+ <img src="https://github.com/scottludtke5-a11y/Learning998897/blob/main/IMG_20260114_170529_408.jpg?raw=true" alt="Sample Image"title ="Animal Planet"></a></div>
+
+<div class="flex-item">
+<p>Email me at the following address: <a href="mailto: scottludtke5@gmail.com"
+target="_blank">scottludtke5@gmail.com</a></p></div>
+</div>
+</div>
+<br><br>
+<hr>
+<br><br>
+<div class="grid-container">
+<div class= "grid-item">
+<h2>My Hobbies</h2>
+<table class="table-style1">
+<tr>
+<th>Hobby</th>
+<th>Hours/Week</th>
+</tr>
+<tr>
+<td>Hobby 1</td>
+<td>time</td>
+</tr>
+<tr>
+<td>Hobby 2</td>
+<td>time</td>
+</tr>
+</table>
+</div>
+<div class="grid-item"></div>
+<div class="grid-item">
+<h2>My Favorite Movies</h2>
+<table class="table-style2">
+<tr>
+<th>Movie</th>
+<th>Year</th>
+</tr>
+<tr>
+<td>Your movie</td>
+<td>release year</td>
+</tr>
+<tr>
+<td>Your movie</td>
+<td>release year</td>
+</tr>
+</table>
+</div>
+</div>
+<div class = "mycontainer">
+<div style ="backgroud-color: LighCyan",>
+<h1>My Favorite Foods</h1>
+<ul class="list-style1">
+<li>Pizza</li>
+<li>Spaghetti</li>
+<li>Cheese Burgers</li>
+</ul>
+</div>
+<div style ="background-color: Aquamarine",>
+<h2>My Favorite Drink</h2>
+<ul class="list-style2">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Monsters</li>
+</ul>
+</div>
+</div>
+<br><br><br>
+<div class = "video">
+<h2>My Favorite Video</h2>
+<video width="480" height="360" controls>
+<source src="https://github.com/scottludtke5-a11y/Learning998897/blob/main/videoplayback.mp4?raw=true"
+Your browser does not support the video tag
+</video>
+</div>
+<div>
+<h2>Embedded Website</h2>
+<iframe src="https://quirkycort.github.io/gears/public/"width="700"
+height="466"style="border:none;"></iframe>
+</div>
+
+</body>
+</html>
